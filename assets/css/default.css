@@ -1,0 +1,102 @@
+* {margin: 0px;padding: 0px;border: 0px;list-style: none; font-family: 'lucidagranderegular';}
+body {background: #444444;}
+
+
+/* clear blocks */
+.clear {clear: both;}
+
+/* wrap */
+.wrap {width: 980px;margin: 0 auto;position:relative;}
+
+@font-face {
+    font-family: 'lucidagranderegular';
+    src: url('../fonts/lucidagrande-webfont.eot');
+    src: url('../fonts/lucidagrande-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lucidagrande-webfont.woff') format('woff'),
+         url('../fonts/lucidagrande-webfont.ttf') format('truetype'),
+         url('../fonts/lucidagrande-webfont.svg#lucidagranderegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+select, input, textarea, button {
+    outline: medium none;
+    resize: none;
+}
+
+/* header */
+#header {width: 100%;height: 226px;float: left;background: url(../images/bg/bg_header.jpg) 0px 0px repeat-x;}
+#header h1 {width: 168px;height: 166px;position: absolute;left: 25px;top: 25px;z-index: 4;}
+#header .wrap .left {position: relative;width: 620px;height: 32px;float: left;margin-top: 70px;background: url("../images/bg/bg_left_band.png") no-repeat scroll 0 0 #F5364B;}
+#header .wrap .left #text1 {width: 760px;height: 125px;top: 40px;left: 210px;position: absolute;background: url("../images/bg/bg_text1.png") no-repeat scroll 0 0px transparent;}
+#header .wrap .left #text1 em {position: absolute;text-indent: -9999em;}
+#header .wrap .mid {width: 360px;height: 66px;float: left;margin-top: 36px;position: relative;background: url("../images/bg/bg_mid_band.png") no-repeat scroll 0 0 transparent;}
+#header .wrap .right {width: 320px;height: 31px;position: absolute;right: 0px;top: 0px;background: url("../images/bg/bg_right_band.png") no-repeat scroll right top #F5364B ;}
+#header .wrap .right h2 {background: url("../images/bg/bg_icon_mouse.png") no-repeat scroll 0 5px transparent;color: #EEEEEE;float: right;font-size: 15px;height: 29px;line-height: 30px;padding-left: 34px;padding-top: 0;width: 160px;}
+
+/* content */
+#content {width: 100%;height: 450px;float: left;background: url(../images/bg/bg_shelf.jpg) 0px 0px repeat-x;}
+#content .wrap #all-products {background: url("../images/bg/bg_products.png") no-repeat scroll 0 0 transparent;float: left;height: 277px;margin-left: 90px;margin-top: 90px;width: 840px;}
+
+/* footer */
+#footer {width: 100%;height: 100px;float: left;background:url(../images/bg/bg_footer.gif) 0px 0px repeat-x;}
+
+#footer ul#nav_footer {width: 980px;height: 80px;float: left;margin-top:25px;}
+#footer ul#nav_footer a#custom,
+#footer ul#nav_footer a#quantities,
+#footer ul#nav_footer a#faster,
+#footer ul#nav_footer a#contact {width: 217px;height: 60px;float: left;color: #EEEEEE;font-size: 17px;font-weight: bold;letter-spacing: -1px;text-decoration: none;text-transform: uppercase;margin-right: 40px;background: url("../images/btn/btn_sprite_menu.gif") no-repeat scroll 0 0 transparent;}
+#footer ul#nav_footer a#custom:hover {color: #911c29;}
+#footer ul#nav_footer a#custom span,
+#footer ul#nav_footer a#quantities span,
+#footer ul#nav_footer a#faster span,
+#footer ul#nav_footer a#contact span {float: left;margin-left: 55px;margin-top: 14px;}
+#footer ul#nav_footer a#custom em,
+#footer ul#nav_footer a#quantities em,
+#footer ul#nav_footer a#faster em,
+#footer ul#nav_footer a#contact em {color: #999999;float: left;font-size: 11px;font-style: oblique;letter-spacing: 1px;margin-left: 54px;margin-top: 10px;text-transform: none;}
+
+/* quantities */
+#footer ul#nav_footer a#quantities {width: 281px;background-position: -266px 0px;}
+#footer ul#nav_footer a#quantities:hover {color:#55752b;}
+#footer ul#nav_footer a#quantities span {margin-left:58px;}
+#footer ul#nav_footer a#quantities em {margin-left:58px;}
+
+/* faster */
+#footer ul#nav_footer a#faster {width: 165px;background-position: -603px 0}
+#footer ul#nav_footer a#faster:hover {color:#62372c;}
+#footer ul#nav_footer a#faster span {margin-left:58px;}
+#footer ul#nav_footer a#faster em {margin-left:58px;}
+
+/* contact */
+#footer ul#nav_footer a#contact {width: 160px;background-position: -815px 0;}
+#footer ul#nav_footer a#contact:hover {color:#023e63;}
+#footer ul#nav_footer a.page-contact {margin-right: 0px !important;}
+#footer ul#nav_footer a#contact span {margin-left:58px;}
+#footer ul#nav_footer a#contact em {margin-left:58px;}
+
+/* modal  contact */
+#content-form {background: url("../images/bg/bg_bottom_modal_contact.gif") repeat-x scroll -6px bottom #011826;float: left;width: 456px;height: 530px;}
+#content-form h3 {background: url("../images/bg/bg_title_modal_contact.gif") repeat-x scroll 0 28px #FDFDFD;float: left;height: 69px;width: 456px;font-weight: normal;}
+#content-form h3 span {background: url("../images/bg/bg_title_entry_contact.png") no-repeat scroll 4px 5px transparent;color: #EEEEEE;float: left;font-size: 14px;height: 48px;margin-top: 28px;padding-top: 11px;text-align: right;width: 427px;	}
+#content-form form {float: left;height: 200px;margin-left: 27px;margin-top: 18px;width: 418px;}
+#content-form form .fields {width: 400px;float: left;margin-bottom: 20px;}
+#content-form form .fields label {display: block;color: #eee;text-transform: uppercase;font-size: 11px;font-weight:bold;}
+#content-form form .fields input[type="text"] {width: 380px;height: 14px;padding: 10px;float: left;background: #eeeeee;font-size: 11px;}
+#content-form form div input[type="submit"] {background: url("../images/btn/btn_send.jpg") no-repeat scroll 0 0 transparent;border: 0 none;color: #EEEEEE;float: left;font-size: 12px;font-weight: bold;height: 36px;text-align: center;text-transform: uppercase;width: 162px;cursor: pointer;}
+#content-form form div input[type="submit"]:hover {background-position: 0px -39px;}
+#content-form form div textarea {width:380px;padding:10px;float:left;height: 50px;background: #eeeeee;font-size: 12px;}
+
+#content-form form .fields input[type="text"],
+#content-form form .fields textarea {
+	/*border: 1px solid red;*/
+}
+#content-principal {background: url("../images/bg/bg_enunciado_produtos_02.jpg") repeat-x scroll 0 0 transparent;height: 79px;left: -700px;position: absolute;top: 46px;width: 130%;}
+#content-principal span {float: right;width: 16px;height: 79px;background: #f3f3f3 url("../images/bg/bg_enunciado_produtos_04.jpg") 0px 0px no-repeat;}
+#content-principal img {float: right;margin-right: 30px;margin-top: 17px;}
+
+#cboxWrapper {
+	height: 530px !important;
+	overflow: visible !important;
+}
