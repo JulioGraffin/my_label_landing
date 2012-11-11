@@ -6,11 +6,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $activity = $_POST["activity"];
     $message = $_POST["message"];
     
-    $message = "Nome: {$name}<br />";
-    $message .= "Email: {$email}<br />";
-    $message .= "Empresa: {$company}<br />";
-    $message .= "Atividade: {$activity}<br />";
-    $message .= "Mensagem: {$message}<br />";
+    $message = "Nome: {$name} \n";
+    $message .= "Email: {$email} \n";
+    $message .= "Empresa: {$company} \n";
+    $message .= "Atividade: {$activity} \n";
+    $message .= "Mensagem: {$message} \n";
     
     mail($email, "[MEU ROTULO] Contato - {$name}", $message);
     mail("lzerma@gmail.com", "[MEU ROTULO] Contato - {$name}", $message);
