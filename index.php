@@ -12,8 +12,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $_message .= "Atividade: {$activity} \n";
     $_message .= "Mensagem: {$message} \n";
     
-    mail($email, "[MEU ROTULO] Contato - {$name}", $_message);
-    mail("lzerma@gmail.com", "[MEU ROTULO] Contato - {$name}", $_message);
+    mail("contato@meurotulo.com", "[MEU ROTULO - CONTATO] {$name} ", $_message);
+    mail("zerma@meurotulo.com", "[MEU ROTULO - CONTATO] {$name} ", $_message);
 }
 
 ?>
