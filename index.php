@@ -1,3 +1,22 @@
+<?php 
+if($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST["name"];
+    $email = $_POST["email"];
+    $company = $_POST["company"];
+    $activity = $_POST["activity"];
+    $message = $_POST["message"];
+    
+    $message = "Nome: {$name}<br />";
+    $message .= "Email: {$email}<br />";
+    $message .= "Empresa: {$company}<br />";
+    $message .= "Atividade: {$activity}<br />";
+    $message .= "Mensagem: {$message}<br />";
+    
+    mail($email, "[MEU ROTULO] Contato - {$name}", $message);
+    mail("lzerma@gmail.com", "[MEU ROTULO] Contato - {$name}", $message);
+}
+
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="pt-br">
 	<head>
