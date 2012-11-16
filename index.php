@@ -23,7 +23,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 		<title>MeuRotulo.com - +5541 3024-8081</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 		<meta name="author" content="MeuRotulo.com">
-		<meta name="description" content="MeuRotulo.com - E-commerce que trabalha com produtos de mídia, Tags, Rótulos, Etiquetas e Transfer.">
+		<meta name="description" content="Empresa especializada em rótulos, etiquetas, tags, transfer, bottons e outras formas para marcar e comunicar seu produto, negócio ou festa. Desde rótulos personalizados para brindes e produtos artesanais, até etiquetas para lembrancinhas de festas e comemorações. Produzimos em pequenas quantidades, com agilidade na entrega.">
 		<link rel="shortcut icon" href="assets/images/favicon.png">
 		<link href="assets/css/default.css" rel="stylesheet" type="text/css">
 		<link href="assets/css/colorbox.css" rel="stylesheet" type="text/css">
